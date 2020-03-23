@@ -44,6 +44,12 @@ JINJA_ENVIRONMENT = {
 BOOTSTRAP_THEME = 'flatly'
 PYGMENTS_STYLE = 'monokai'
 
+ARTICLE_PATHS = ['articles']
+
+STATIC_PATHS = ['img', 'pdf']
+
+PAGE_PATHS = ['pages']
+
 
 
 
