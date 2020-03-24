@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>A Pelican Blog - markdown</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog</a></h1>
+                <nav><ul>
+                    <li><a href="/pages/about-me.html">About Me</a></li>
+                    <li><a href="/category/blogging.html">blogging</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/markdown-examples-part-3.html">Markdown Examples Part 3</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-01-04T12:00:00+00:00">
+                Published: Fri 04 January 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/matthew-devaney.html">Matthew Devaney</a>
+        </address>
+<p>In <a href="/category/blogging.html">blogging</a>.</p>
+<p>tags: <a href="/tag/markdown.html">markdown</a> <a href="/tag/pygments.html">pygments</a> </p>
+</footer><!-- /.post-info --><p>Code blocks are preceeded by an indent, three : symbols and the name of the language.<br>
+All of the following code will be highlighted while the text is indented.</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">do_twice</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">wrapper_do_twice</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+<span class="k">return</span> <span class="n">wrapper_do_twice</span>
+
+<span class="nd">@do_twice</span>
+<span class="k">def</span> <span class="nf">say_whee</span><span class="p">(</span><span class="n">some_text</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">some_text</span><span class="p">)</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="s1">&#39;Whee!&#39;</span>
+<span class="n">say_whee</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/markdown-examples-part-2.html" rel="bookmark"
+                           title="Permalink to Markdown Examples Part 2">Markdown Examples Part 2</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-01-03T12:00:00+00:00">
+                Published: Thu 03 January 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/matthew-devaney.html">Matthew Devaney</a>
+        </address>
+<p>In <a href="/category/blogging.html">blogging</a>.</p>
+<p>tags: <a href="/tag/markdown.html">markdown</a> </p>
+</footer><!-- /.post-info -->                <p>Images can be displayed in Markdown.<br>
+Text within the square brackets is the image name. The path to the image goes between the round brackets.<br>
+The {static} tag indicates the image is stored in the content folder. This setting can be changed in pelicanconf.py.</p>
+<p><img alt="python logo" src="/img/python_icon.png">
+<a href="/pdf/pelican.pdf">Pelican Documenation</a></p>
+<p>Links to downloadable …</p>
+                <a class="readmore" href="/markdown-examples-part-2.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/markdown-examples-part-1.html" rel="bookmark"
+                           title="Permalink to Markdown Examples Part 1">Markdown Examples Part 1</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-01-02T12:00:00+00:00">
+                Published: Wed 02 January 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/matthew-devaney.html">Matthew Devaney</a>
+        </address>
+<p>In <a href="/category/blogging.html">blogging</a>.</p>
+<p>tags: <a href="/tag/markdown.html">markdown</a> </p>
+</footer><!-- /.post-info -->                <p>Basic markdown examples are shown below</p>
+<p>This text is <strong>bold</strong>
+This text is also <strong>bold</strong></p>
+<p>This text is <em>italic</em>
+This text is also <em>italic</em></p>
+<p>This text is <strong><em>italic and bold</em></strong></p>
+<h1>An h1 heading</h1>
+<h2>An h2 heading</h2>
+<h3>An h3 heading...</h3>
+<h6>An h6 heading</h6>
+<p>A list with numbers:
+1. One
+2. Two …</p>
+                <a class="readmore" href="/markdown-examples-part-1.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/my-first-blog-post.html" rel="bookmark"
+                           title="Permalink to My First Blog Post">My First Blog Post</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-01-01T09:00:00+00:00">
+                Published: Tue 01 January 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/matthew-devaney.html">Matthew Devaney</a>
+        </address>
+<p>In <a href="/category/blogging.html">blogging</a>.</p>
+<p>tags: <a href="/tag/python.html">python</a> <a href="/tag/markdown.html">markdown</a> <a href="/tag/pelican.html">pelican</a> </p>
+</footer><!-- /.post-info -->                <p>Blog post content goes here</p>
+                <a class="readmore" href="/my-first-blog-post.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

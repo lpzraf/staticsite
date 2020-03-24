@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>A Pelican Blog - Matthew Devaney</title><link>/</link><description></description><lastBuildDate>Fri, 04 Jan 2019 12:00:00 +0000</lastBuildDate><item><title>Markdown Examples Part 3</title><link>/markdown-examples-part-3.html</link><description>&lt;p&gt;Code blocks are preceeded by an indent, three : symbols and the name of the language.&lt;br&gt;
+All of the following code will be highlighted while the text is indented.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;do_twice&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;func&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;wrapper_do_twice&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;kwargs&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;func&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;kwargs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;wrapper_do_twice&lt;/span&gt;
+
+&lt;span class="nd"&gt;@do_twice&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;say_whee&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;some_text&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;some_text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Whee …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Devaney</dc:creator><pubDate>Fri, 04 Jan 2019 12:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2019-01-04:/markdown-examples-part-3.html</guid><category>blogging</category><category>markdown</category><category>pygments</category></item><item><title>Markdown Examples Part 2</title><link>/markdown-examples-part-2.html</link><description>&lt;p&gt;Images can be displayed in Markdown.&lt;br&gt;
+Text within the square brackets is the image name. The path to the image goes between the round brackets.&lt;br&gt;
+The {static} tag indicates the image is stored in the content folder. This setting can be changed in pelicanconf.py.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="python logo" src="/img/python_icon.png"&gt;
+&lt;a href="/pdf/pelican.pdf"&gt;Pelican Documenation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Links to downloadable …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Devaney</dc:creator><pubDate>Thu, 03 Jan 2019 12:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2019-01-03:/markdown-examples-part-2.html</guid><category>blogging</category><category>markdown</category></item><item><title>Markdown Examples Part 1</title><link>/markdown-examples-part-1.html</link><description>&lt;p&gt;Basic markdown examples are shown below&lt;/p&gt;
+&lt;p&gt;This text is &lt;strong&gt;bold&lt;/strong&gt;
+This text is also &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This text is &lt;em&gt;italic&lt;/em&gt;
+This text is also &lt;em&gt;italic&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This text is &lt;strong&gt;&lt;em&gt;italic and bold&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;An h1 heading&lt;/h1&gt;
+&lt;h2&gt;An h2 heading&lt;/h2&gt;
+&lt;h3&gt;An h3 heading...&lt;/h3&gt;
+&lt;h6&gt;An h6 heading&lt;/h6&gt;
+&lt;p&gt;A list with numbers:
+1. One
+2. Two …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Devaney</dc:creator><pubDate>Wed, 02 Jan 2019 12:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2019-01-02:/markdown-examples-part-1.html</guid><category>blogging</category><category>markdown</category></item><item><title>My First Blog Post</title><link>/my-first-blog-post.html</link><description>&lt;p&gt;Blog post content goes here&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Devaney</dc:creator><pubDate>Tue, 01 Jan 2019 09:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2019-01-01:/my-first-blog-post.html</guid><category>blogging</category><category>python</category><category>markdown</category><category>pelican</category></item></channel></rss>
